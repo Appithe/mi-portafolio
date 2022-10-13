@@ -2,7 +2,7 @@ import React from 'react';
 
 export const AboutBody = () => {
 	return (
-		<div className='col-start-1 col-end-7'>
+		<div className='col-start-1 col-end-8'>
 			<h1 className='text-h1 font-Fjalla pb-8'>Hi!</h1>
 			<h1 className='text-h1 font-Fjalla pb-16'>I&apos;m Joel Avilés</h1>
 
