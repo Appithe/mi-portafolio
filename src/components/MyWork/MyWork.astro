@@ -1,5 +1,7 @@
 ---
 import Section from "../../layouts/Section.svelte"
+import ProjectCard from "./ProjectCard.svelte"
+
 ---
 
 <Section 
@@ -7,6 +9,12 @@ import Section from "../../layouts/Section.svelte"
 	bgColor="bg-dark-electric-blue" 
 	svgWaveBottom="/assets/waves/WaveMyWork.svg"
 >
-	<h1>My work</h1>
+	<h1 class="text-h2 font-Fjalla pb-10">My work</h1>
+	<div class="flex flex-row flex-wrap gap-5 justify-center items-center">
+		<ProjectCard />
+		<ProjectCard />
+		<ProjectCard />
+		<ProjectCard />
+	</div>
 
 </Section>
