@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Button } from '../Button';
+import { NavButton } from './NavButton';
 
 export const NavLink = (props) => {
 
@@ -10,11 +10,11 @@ export const NavLink = (props) => {
 	} = props;
 
 	return (
-		<Button>
+		<NavButton>
 			<a href={href}>
 				<span className='font-Libre text-button-text'>{message}</span>
 			</a>
-		</Button>
+		</NavButton>
 	);
 };
 

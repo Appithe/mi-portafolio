@@ -4,7 +4,7 @@ import Nav from "./Nav.svelte";
 import NavLinks from "./NavLinks.svelte"
 import { NavLink } from "./NavLink";
 import { NavBrand } from "./NavBrand";
-import { Button } from "../Button"
+import { NavButton } from "./NavButton"
 
 // FIXME: onclick is not working when is send as a prop to Button component  
 function onChangeLanguage() {
@@ -21,5 +21,5 @@ function onChangeLanguage() {
 			<NavLink message='Skills' href='#skills'/>
 			<NavLink message='Get in touch' href='#footer'/>
 	</NavLinks>
-	<Button client:visible onClick={onChangeLanguage} message='ESP / ENG'/>
+	<NavButton client:visible onClick={onChangeLanguage} message='ESP / ENG'/>
 </Nav>

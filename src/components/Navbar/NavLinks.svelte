@@ -1,3 +1,3 @@
-<div class="h-[50px] w-fit flex flex-row gap-5 place-self-center">
+<div class="h-[50px] w-fit col-start-5 col-span-4 flex flex-row gap-10 place-self-center">
 	<slot/>
 </div>

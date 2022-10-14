@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export const Button = (props) => {
+export const NavButton = (props) => {
 
 	const {
 		children = null,
@@ -10,7 +10,7 @@ export const Button = (props) => {
 	} = props;
 
 	return (
-		<button onClick={handleClick} className='w-fit h-[50px] p-3 flex justify-center items-center hover:rounded hover:border-2 hover:border-charcoal'>
+		<button onClick={handleClick} className='w-fit h-[50px] p-3 col-start-10 flex justify-center items-center hover:rounded hover:border-2 hover:border-charcoal'>
 			{
 				children || <span className='font-Libre text-button-text'>{message}</span>
 			}
@@ -18,7 +18,7 @@ export const Button = (props) => {
 	);
 };
 
-Button.propTypes = {
+NavButton.propTypes = {
 	message: PropTypes.string,
 	handleClick: PropTypes.func,
 	children: PropTypes.node,
