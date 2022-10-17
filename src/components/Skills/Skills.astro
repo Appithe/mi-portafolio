@@ -1,13 +1,115 @@
 ---
 import Section from "../../layouts/Section.svelte"
+import SkillSet from "./SkillSet.svelte"
+import { SkillSetIcons } from './SkillSetIcons';
+import { SkillSetBody } from './SkillSetBody';
+
+const skills = [
+	{
+		title: 'Styling',
+		icons: [
+			'/assets/icons/css3.svg',
+			'/assets/icons/tailwindcss.svg',
+			'/assets/icons/bootstrap.svg',
+			'/assets/icons/materialui.svg',
+		],
+		message: 'I have experience with CSS, TailwindCSS, Bootstrap, and Material UI.',
+	},
+	{
+		title: 'JavaScript',
+		icons: [
+			'/assets/icons/javascript.svg',
+			'/assets/icons/nodejs.svg',
+		],
+		message: 'I have experience with JavaScript and Node.js.',
+	},
+	{
+		title: 'Frameworks',
+		icons: [
+			'/assets/icons/svelte.svg',
+			'/assets/icons/react.svg',
+		],
+		message: 'I have experience with Svelte and React.',
+	},
+	{
+		title: 'Version Control',
+		icons: [
+			'/assets/icons/git.svg',
+			'/assets/icons/github.svg',
+		],
+		message: 'I have experience with Git and GitHub.',
+	},
+	{
+		title: 'Bundlers',
+		icons: [
+			'/assets/icons/vitejs.svg',
+			'/assets/icons/astro.svg',
+		],
+		message: 'I have experience with Vite and Astro.',
+	},
+	{
+		title: 'Design',
+		icons: [
+			'/assets/icons/figma.svg',
+		],
+		message: 'I have experience with Figma.',
+	},
+
+]
+
+// TODO: make it more suitable for scalability
 ---
 
 <Section 
 	sectionId="skills" 
 	bgColor="bg-charcoal" 
 	svgWaveBottom="/assets/waves/WaveSkills.svg"
-	className="p-20"
+	className="p-20 grid grid-cols-12 grid-rows-4 gap-4"
 >
-	<h1 class="text-h2 font-Fjalla pb-10">Skills</h1>
+	<h2 class="text-h2 font-Fjalla pb-10">Skills</h2>
+	<!-- Left -->
+	<SkillSet className="row-start-2 col-span-5">
+		<div class="flex flex-row items-center gap-2">
+			<h3 class="text-h3 font-Fjalla">{skills[0].title}</h3>
+			<SkillSetIcons icons={skills[0].icons}/>
+		</div>
+		<SkillSetBody message={skills[0].message}/>
+	</SkillSet>
+	<SkillSet className="row-start-3 col-span-5">
+		<div class="flex flex-row items-center gap-2">
+			<h3 class="text-h3 font-Fjalla">{skills[1].title}</h3>
+			<SkillSetIcons icons={skills[1].icons}/>
+		</div>
+		<SkillSetBody message={skills[1].message}/>
+	</SkillSet>
+	<SkillSet className="row-start-4 col-span-5 z-20">
+		<div class="flex flex-row items-center gap-2">
+			<h3 class="text-h3 font-Fjalla">{skills[2].title}</h3>
+			<SkillSetIcons icons={skills[2].icons}/>
+		</div>
+		<SkillSetBody message={skills[2].message}/>
+	</SkillSet>
 
+	<!-- Rigth -->
+	<SkillSet className="row-start-2 col-start-7 col-span-5">
+		<div class="flex flex-row items-center gap-2">
+			<h3 class="text-h3 font-Fjalla">{skills[3].title}</h3>
+			<SkillSetIcons icons={skills[3].icons}/>
+		</div>
+		<SkillSetBody message={skills[3].message}/>
+	</SkillSet>
+	<SkillSet className="row-start-3 col-start-7 col-span-5">
+		<div class="flex flex-row items-center gap-2">
+			<h3 class="text-h3 font-Fjalla">{skills[4].title}</h3>
+			<SkillSetIcons icons={skills[4].icons}/>
+		</div>
+		<SkillSetBody message={skills[4].message}/>
+	</SkillSet>
+	<SkillSet className="row-start-4 col-start-7 col-span-5 z-20">
+		<div class="flex flex-row items-center gap-2">
+			<h3 class="text-h3 font-Fjalla">{skills[5].title}</h3>
+			<SkillSetIcons icons={skills[5].icons}/>
+		</div>
+		<SkillSetBody message={skills[5].message}/>
+	</SkillSet>
 </Section>
