@@ -12,8 +12,8 @@
 	style="background-image: url('{image}')"
   >
 	<div class="px-36 pb-8 w-full absolute">
-	  <h3 class="text-h3">{title}</h3>
-	  <p class="text-2xl w-96 description">{description}</p>
+	  <h3 class="text-h3 font-Fjalla">{title}</h3>
+	  <p class="text-2xl font-Libre w-96 description">{description}</p>
 	</div>
   </div>
 </a>

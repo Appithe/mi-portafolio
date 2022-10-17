@@ -12,8 +12,8 @@ module.exports = {
 				'nav-title': '2.5rem',
 				'h1': '4rem',
 				'h2': '3rem',
-				'h3': '2.25rem',
-				'p': '2rem',
+				'h3': '2rem',
+				'p': '1.5rem',
 				'button-text': '1.25rem'
 			},
 			colors: {
