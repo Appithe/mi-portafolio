@@ -64,25 +64,25 @@ const skills = [
 	sectionId="skills" 
 	bgColor="bg-charcoal" 
 	svgWaveBottom="/assets/waves/WaveSkills.svg"
-	className="p-20 grid grid-cols-12 grid-rows-4 gap-4"
+	className="py-20 grid grid-cols-12 grid-rows-4 gap-4"
 >
-	<h2 class="text-h2 font-Fjalla pb-10">Skills</h2>
+	<h2 class="text-h2 font-Fjalla pb-10 col-start-2">Skills</h2>
 	<!-- Left -->
-	<SkillSet className="row-start-2 col-span-5">
+	<SkillSet className="row-start-2 col-span-5 col-start-2">
 		<div class="flex flex-row items-center gap-2">
 			<h3 class="text-h3 font-Fjalla">{skills[0].title}</h3>
 			<SkillSetIcons icons={skills[0].icons}/>
 		</div>
 		<SkillSetBody message={skills[0].message}/>
 	</SkillSet>
-	<SkillSet className="row-start-3 col-span-5">
+	<SkillSet className="row-start-3 col-span-5 col-start-2">
 		<div class="flex flex-row items-center gap-2">
 			<h3 class="text-h3 font-Fjalla">{skills[1].title}</h3>
 			<SkillSetIcons icons={skills[1].icons}/>
 		</div>
 		<SkillSetBody message={skills[1].message}/>
 	</SkillSet>
-	<SkillSet className="row-start-4 col-span-5 z-20">
+	<SkillSet className="row-start-4 col-span-5 col-start-2 z-20">
 		<div class="flex flex-row items-center gap-2">
 			<h3 class="text-h3 font-Fjalla">{skills[2].title}</h3>
 			<SkillSetIcons icons={skills[2].icons}/>

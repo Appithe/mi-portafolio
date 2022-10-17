@@ -2,7 +2,7 @@
 	export let title = 'Project Title';
 	export let description = 'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor';
 	export let image = 'https://picsum.photos/id/1060/692/456'
-	export let link = 'https://github.com/Appithe';
+	export let link = 'https://github.com/Appithe'; 
 </script>
 
 <a class="w-[692px] h-[456px]" href={link}>
