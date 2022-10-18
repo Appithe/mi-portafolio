@@ -14,6 +14,7 @@ module.exports = {
 				'h2': '3rem',
 				'h3': '2rem',
 				'p': '1.5rem',
+				'span': '1rem',
 				'button-text': '1.25rem'
 			},
 			colors: {

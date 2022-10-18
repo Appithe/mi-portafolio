@@ -1,0 +1,16 @@
+---
+import GetInTouch from './GetInTouch.svelte';
+import MyResume from './MyResume.svelte';
+
+import { Contact } from './Contact';
+---
+
+<footer id="footer" class="pt-32 pb-8 grid grid-cols-12 gap-5">
+	<GetInTouch>
+		<Contact link='https://github.com/Appithe' icon='/assets/icons/github.svg' message='View my Github'/>
+		<Contact link='https://www.linkedin.com/in/joel-aviles/' icon='/assets/icons/linkedin.svg' message='View my LinkedIn'/>
+		<Contact link='mailto:avilesjoel413@gmail.com' icon='/assets/icons/google.svg' message='Send me a mail'/>
+		<Contact link='https://wa.me/524731114987' icon='/assets/icons/whatsapp.svg' message='Lets chat'/>
+	</GetInTouch>
+	<MyResume />
+</footer>
