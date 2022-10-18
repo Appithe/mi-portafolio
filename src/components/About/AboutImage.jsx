@@ -1,7 +1,7 @@
 import React from 'react';
 import Blob from '../../../public/assets/Blob';
 
-// TODO: Add image
+// TODO: Add my image
 export const AboutImage = () => {
 	return (
 		<div className='flex items-center justify-center col-start-8 col-end-13 relative z-20'>
