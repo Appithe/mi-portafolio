@@ -1,0 +1,286 @@
+[
+	{
+		"lang": "en",
+		"nav_links": [
+			{
+				"href": "#about",
+				"text": "About"
+			},
+			{
+				"href": "#my-work",
+				"text": "Projects"
+			},
+			{
+				"href": "#skills",
+				"text": "Skills"
+			},
+			{
+				"href": "#footer",
+				"text": "Get in touch"
+			}
+		],
+		"about": {
+			"header": ["Hi!", "I&apos;m Joel Avilés"],
+			"content": ["I&apos;m junior Frontend Developer with interests in UX / UI, Design Thinking & SCRUM.","I am constantly learning and I love working in a team."],
+			"image": "https://res.cloudinary.com/dstbwwmvv/image/upload/w_410,h_620,c_fill/v1666751040/20220710_203258_isgdxt.jpg"
+		},
+		"projects": {
+			"header": "My projects",
+			"projects": [
+				{
+				  "title": "Titulo 1",
+				  "description":
+					"Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor",
+				  "image": "https://picsum.photos/id/1050/692/456",
+				  "link": "https://github.com/Appithe"
+				},
+				{
+				  "title": "Titulo 2",
+				  "description":
+					"Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor",
+				  "image": "https://picsum.photos/id/1060/692/456",
+				  "link": "https://github.com/Appithe"
+				},
+				{
+				  "title": "Titulo 3",
+				  "description":
+					"Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor",
+				  "image": "https://picsum.photos/id/1070/692/456",
+				  "link": "https://github.com/Appithe"
+				},
+				{
+				  "title": "Titulo 4",
+				  "description":
+					"Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor",
+				  "image": "https://picsum.photos/id/1080/692/456",
+				  "link": "https://github.com/Appithe"
+				}
+			]
+		},
+		"skills": {
+			"header": "Skills",
+			"skills": [
+				{
+					"title": "Styling",
+					"icons": [
+						"/assets/icons/css3.svg",
+						"/assets/icons/tailwindcss.svg",
+						"/assets/icons/bootstrap.svg",
+						"/assets/icons/materialui.svg"
+					],
+					"message": "I have experience with CSS, TailwindCSS, Bootstrap, and Material UI."
+				},
+				{
+					"title": "JavaScript",
+					"icons": [
+						"/assets/icons/javascript.svg",
+						"/assets/icons/nodejs.svg"
+					],
+					"message": "I have experience with JavaScript and Node.js."
+				},
+				{
+					"title": "Frameworks",
+					"icons": [
+						"/assets/icons/svelte.svg",
+						"/assets/icons/react.svg"
+					],
+					"message": "I have experience with Svelte and React."
+				},
+				{
+					"title": "Version Control",
+					"icons": [
+						"/assets/icons/git.svg",
+						"/assets/icons/github.svg"
+					],
+					"message": "I have experience with Git and GitHub."
+				},
+				{
+					"title": "Tools",
+					"icons": [
+						"/assets/icons/vitejs.svg",
+						"/assets/icons/astro.svg"
+					],
+					"message": "I have experience with Vite and Astro."
+				},
+				{
+					"title": "Design",
+					"icons": [
+						"/assets/icons/figma.svg"
+					],
+					"message": "I have experience with Figma."
+				}
+			]
+		},
+		"footer": {
+			"headers": ["Get in touch", "Download my resume"],
+			"links": [
+				{
+					"icon": "/assets/icons/github.svg",
+					"link": "https://github.com/Appithe",
+					"message": "View my Github"
+				},
+				{
+					"icon": "/assets/icons/linkedin.svg",
+					"link": "https://www.linkedin.com/in/joel-aviles/",
+					"message": "View my LinkedIn"
+				},
+				{
+					"icon": "/assets/icons/google.svg",
+					"link": "mailto:avilesjoel413@gmail.com",
+					"message": "Send me a mail"
+				},
+				{
+					"icon": "/assets/icons/whatsapp.svg",
+					"link": "https://wa.me/524731114987",
+					"message": "Lets chat"
+				}
+
+			],
+			"resumeImage": "https://res.cloudinary.com/dstbwwmvv/image/upload/v1666751368/Jesus_Joel_Aviles_Bermudez_Resume_eez9ys.png",
+			"resumePdf": "/assets/resume/Jesus_Joel_Aviles_Bermudez_Resume.pdf",
+			"svg": "/assets/icons/file_download.svg"
+		}
+	},
+	{
+		"lang": "es",
+		"nav_links": [
+			{
+				"href": "#about",
+				"text": "Sobre mi"
+			},
+			{
+				"href": "#my-work",
+				"text": "Proyectos"
+			},
+			{
+				"href": "#skills",
+				"text": "Habilidades"
+			},
+			{
+				"href": "#footer",
+				"text": "Contacto"
+			}
+		],
+		"about": {
+			"header": ["Hola!", "Soy Joel Avilés"],
+			"content": ["Soy Desarrollador Frontend junior con intereses en UX / UI, Design Thinking & SCRUM.","Estoy en constante aprendizaje y me encanta trabajar en equipo."],
+			"image": "https://res.cloudinary.com/dstbwwmvv/image/upload/w_410,h_620,c_fill/v1666751040/20220710_203258_isgdxt.jpg"
+		},
+		"projects": {
+			"header": "Mis proyectos",
+			"projects": [
+				{
+				  "title": "Titulo 1",
+				  "description":
+					"Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor",
+				  "image": "https://picsum.photos/id/1050/692/456",
+				  "link": "https://github.com/Appithe"
+				},
+				{
+				  "title": "Titulo 2",
+				  "description":
+					"Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor",
+				  "image": "https://picsum.photos/id/1060/692/456",
+				  "link": "https://github.com/Appithe"
+				},
+				{
+				  "title": "Titulo 3",
+				  "description":
+					"Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor",
+				  "image": "https://picsum.photos/id/1070/692/456",
+				  "link": "https://github.com/Appithe"
+				},
+				{
+				  "title": "Titulo 4",
+				  "description":
+					"Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor",
+				  "image": "https://picsum.photos/id/1080/692/456",
+				  "link": "https://github.com/Appithe"
+				}
+			]
+		},
+		"skills": {
+			"header": "Habilidades",
+			"skills": [
+				{
+					"title": "Estilos",
+					"icons": [
+						"/assets/icons/css3.svg",
+						"/assets/icons/tailwindcss.svg",
+						"/assets/icons/bootstrap.svg",
+						"/assets/icons/materialui.svg"
+					],
+					"message": "Tengo experiencia con CSS, TailwindCSS, Bootstrap y Material UI."
+				},
+				{
+					"title": "JavaScript",
+					"icons": [
+						"/assets/icons/javascript.svg",
+						"/assets/icons/nodejs.svg"
+					],
+					"message": "Tengo experiencia con JavaScript y Node.js."
+				},
+				{
+					"title": "Frameworks",
+					"icons": [
+						"/assets/icons/svelte.svg",
+						"/assets/icons/react.svg"
+					],
+					"message": "Tengo experiencia con Svelte y React."
+				},
+				{
+					"title": "Control de Versiones",
+					"icons": [
+						"/assets/icons/git.svg",
+						"/assets/icons/github.svg"
+					],
+					"message": "Tengo experiencia con Git y GitHub."
+				},
+				{
+					"title": "Herramientas",
+					"icons": [
+						"/assets/icons/vitejs.svg",
+						"/assets/icons/astro.svg"
+					],
+					"message": "Tengo experiencia con Vite y Astro."
+				},
+				{
+					"title": "Diseño",
+					"icons": [
+						"/assets/icons/figma.svg"
+					],
+					"message": "Tengo experiencia con Figma."
+				}
+			]
+		},
+		"footer": {
+			"headers": ["Contáctame", "Descarga mi CV"],
+			"links": [
+				{
+					"icon": "/assets/icons/github.svg",
+					"link": "https://github.com/Appithe",
+					"message": "Visita mi Github"
+				},
+				{
+					"icon": "/assets/icons/linkedin.svg",
+					"link": "https://www.linkedin.com/in/joel-aviles/",
+					"message": "Visita mi LinkedIn"
+				},
+				{
+					"icon": "/assets/icons/google.svg",
+					"link": "mailto:avilesjoel413@gmail.com",
+					"message": "Mándame un correo"
+				},
+				{
+					"icon": "/assets/icons/whatsapp.svg",
+					"link": "https://wa.me/524731114987",
+					"message": "Hablemos por WhatsApp"
+				}
+
+			],
+			"resumeImage": "https://res.cloudinary.com/dstbwwmvv/image/upload/v1666751368/Jesus_Joel_Aviles_Bermudez_Resume_eez9ys.png",
+			"resumePdf": "/assets/resume/Jesus_Joel_Aviles_Bermudez_Resume.pdf",
+			"svg": "/assets/icons/file_download.svg"
+		}
+	}
+]
