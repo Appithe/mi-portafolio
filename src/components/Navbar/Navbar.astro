@@ -6,6 +6,26 @@ import { NavLink } from "./NavLink";
 import { NavBrand } from "./NavBrand";
 import { NavButton } from "./NavButton"
 
+const lang = "en";
+const navLinks = [
+	{
+		"href": "#about",
+		"text": "About"
+	},
+	{
+		"href": "#my-work",
+		"text": "Projects"
+	},
+	{
+		"href": "#skills",
+		"text": "Skills"
+	},
+	{
+		"href": "#footer",
+		"text": "Get in touch"
+	}
+];
+
 // FIXME: onclick is not working when is send as a prop to Button component  
 function onChangeLanguage() {
 	console.log("change language");
@@ -14,12 +34,13 @@ function onChangeLanguage() {
 ---
 
 <Nav>
-	<NavBrand title="Joel Aviles" />
+	<NavBrand title="Joel Avilés" />
 	<NavLinks>
-			<NavLink message='About' href='#about'/>
-			<NavLink message='Work' href='#my-work'/>
-			<NavLink message='Skills' href='#skills'/>
-			<NavLink message='Get in touch' href='#footer'/>
+		{
+			navLinks.map((link) => {
+				return <NavLink href={link.href} message={link.text} />
+			})
+		}
 	</NavLinks>
 	<NavButton client:visible onClick={onChangeLanguage} message='ESP / ENG'/>
 </Nav>
