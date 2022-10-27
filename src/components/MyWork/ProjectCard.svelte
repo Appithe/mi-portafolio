@@ -10,7 +10,6 @@
 
 </script>
 
-<!-- FIXME: overlay gradient does not show  -->
 <a class="w-[{width}] h-[{height}]" href={link}>
   <!-- background image with gradient overlay tailwindcss -->
   <picture
