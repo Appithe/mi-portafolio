@@ -13,7 +13,7 @@
 <a class="w-[{width}] h-[{height}]" href={link}>
   <!-- background image with gradient overlay tailwindcss -->
   <picture
-    class="w-[{width}] h-[{height}] flex items-end relative before:w-[{width}] before:h-[{height}] before:absolute before:bg-gradient-to-t before:from-charcoal"
+    class="w-[{width}] h-[{height}] flex items-end relative before:w-[692px] before:h-[456px] before:absolute before:bg-gradient-to-t before:from-charcoal"
   >
     <img class="w-[{width}] h-[{height}] object-cover" src={image} alt="perro" />
     <div class=" w-full absolute p-5">
