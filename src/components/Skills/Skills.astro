@@ -1,7 +1,6 @@
 ---
 import Section from "../../layouts/Section.svelte"
 import SkillSet from "./SkillSet.svelte"
-import { SkillSetIcons } from './SkillSetIcons';
 import { SkillSetBody } from './SkillSetBody';
 
 const skills = [
@@ -68,47 +67,23 @@ const skills = [
 	<h2 class="text-h2 font-Fjalla pb-10 col-start-2">Skills</h2>
 	<!-- Left -->
 	<SkillSet className="row-start-2 col-span-5 col-start-2">
-		<div class="flex flex-row items-center gap-2">
-			<h3 class="text-h3 font-Fjalla">{skills[0].title}</h3>
-			<SkillSetIcons icons={skills[0].icons}/>
-		</div>
-		<SkillSetBody message={skills[0].message}/>
+		<SkillSetBody message={skills[0].message} title={skills[0].title} icons={skills[0].icons}/>
 	</SkillSet>
 	<SkillSet className="row-start-3 col-span-5 col-start-2">
-		<div class="flex flex-row items-center gap-2">
-			<h3 class="text-h3 font-Fjalla">{skills[1].title}</h3>
-			<SkillSetIcons icons={skills[1].icons}/>
-		</div>
-		<SkillSetBody message={skills[1].message}/>
+		<SkillSetBody message={skills[1].message} title={skills[1].title} icons={skills[1].icons}/>
 	</SkillSet>
 	<SkillSet className="row-start-4 col-span-5 col-start-2 z-20">
-		<div class="flex flex-row items-center gap-2">
-			<h3 class="text-h3 font-Fjalla">{skills[2].title}</h3>
-			<SkillSetIcons icons={skills[2].icons}/>
-		</div>
-		<SkillSetBody message={skills[2].message}/>
+		<SkillSetBody message={skills[2].message} title={skills[2].title} icons={skills[2].icons}/>
 	</SkillSet>
 
 	<!-- Rigth -->
 	<SkillSet className="row-start-2 col-start-7 col-span-5">
-		<div class="flex flex-row items-center gap-2">
-			<h3 class="text-h3 font-Fjalla">{skills[3].title}</h3>
-			<SkillSetIcons icons={skills[3].icons}/>
-		</div>
-		<SkillSetBody message={skills[3].message}/>
+		<SkillSetBody message={skills[3].message} title={skills[3].title} icons={skills[3].icons}/>
 	</SkillSet>
 	<SkillSet className="row-start-3 col-start-7 col-span-5">
-		<div class="flex flex-row items-center gap-2">
-			<h3 class="text-h3 font-Fjalla">{skills[4].title}</h3>
-			<SkillSetIcons icons={skills[4].icons}/>
-		</div>
-		<SkillSetBody message={skills[4].message}/>
+		<SkillSetBody message={skills[4].message} title={skills[4].title} icons={skills[4].icons}/>
 	</SkillSet>
 	<SkillSet className="row-start-4 col-start-7 col-span-5 z-20">
-		<div class="flex flex-row items-center gap-2">
-			<h3 class="text-h3 font-Fjalla">{skills[5].title}</h3>
-			<SkillSetIcons icons={skills[5].icons}/>
-		</div>
-		<SkillSetBody message={skills[5].message}/>
+		<SkillSetBody message={skills[5].message} title={skills[5].title} icons={skills[5].icons}/>
 	</SkillSet>
 </Section>
