@@ -14,6 +14,6 @@ export const AboutBody = ({header, text}) => {
 };
 
 AboutBody.propTypes = {
-	header: PropTypes.string.isRequired,
+	header: PropTypes.array,
 	text: PropTypes.string.isRequired
 };
