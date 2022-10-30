@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLanguageStore } from './hooks/useLanguageStore';
+import useLanguageStore from '../../hooks/useLanguageStore';
 
 import { NavLink } from './NavLink';
 
