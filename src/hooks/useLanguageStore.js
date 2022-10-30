@@ -3,7 +3,8 @@ import {
 	navLinksEn, 
 	navLinksEs ,
 	aboutEn,
-	aboutEs
+	aboutEs,
+	images
 } from '../store/languageStore';
 import { useStore } from '@nanostores/react';
 
@@ -21,7 +22,8 @@ const useLanguageStore = () => {
 
 	return {
 		navLinks,
-		aboutContent
+		aboutContent,
+		images: images.get()
 	};
 };
 

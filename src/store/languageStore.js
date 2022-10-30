@@ -12,7 +12,15 @@ export const changeLang = action(language, 'change', (store) => {
 	return store.get();
 });
 
-export const images = atom('https://res.cloudinary.com/dstbwwmvv/image/upload/w_410,h_620,c_fill/v1666751040/20220710_203258_isgdxt.jpg');
+export const images = map({
+	'aboutImage': 'https://res.cloudinary.com/dstbwwmvv/image/upload/w_410,h_620,c_fill/v1666751040/20220710_203258_isgdxt.jpg',
+	'projectImages':[
+		'https://picsum.photos/id/1050/692/456',
+		'https://picsum.photos/id/1060/692/456',
+		'https://picsum.photos/id/1070/692/456',
+		'https://picsum.photos/id/1080/692/456'		
+	],
+});
 
 export const navLinksEn = map([
 	{
@@ -46,10 +54,106 @@ export const navLinksEs = map([
 
 export const aboutEn = map({
 	'header': ['Hi!', 'I\'m Joel Avilés'],
-	'content': ['I\'m junior Frontend Developer with interests in UX / UI, Design Thinking & SCRUM.','I am constantly learning and I love working in a team.'],
+	'content': ['I\'m junior Frontend Developer with interests in UX / UI, Design Thinking & SCRUM.', 'I am constantly learning and I love working in a team.'],
 });
 
 export const aboutEs = map({
 	'header': ['Hola!', 'Soy Joel Avilés'],
-	'content': ['Soy Desarrollador Frontend junior con intereses en UX / UI, Design Thinking & SCRUM.','Estoy en constante aprendizaje y me encanta trabajar en equipo.'],
+	'content': ['Soy Desarrollador Frontend junior con intereses en UX / UI, Design Thinking & SCRUM.', 'Estoy en constante aprendizaje y me encanta trabajar en equipo.'],
+});
+
+export const projectsEn = map({
+	'header': 'My projects',
+	'projects': [
+		{
+			'title': 'Title 1',
+			'description':
+				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
+			'links': {
+				'github': 'https://github.com/Appithe',
+				'figma': '',
+				'web': ''
+			}
+		},
+		{
+			'title': 'Title 2',
+			'description':
+				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
+			'links': {
+				'github': 'https://github.com/Appithe',
+				'figma': '',
+				'web': ''
+			}
+		},
+		{
+			'title': 'Title 3',
+			'description':
+				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
+			'links': {
+				'github': 'https://github.com/Appithe',
+				'figma': '',
+				'web': ''
+			}
+		},
+		{
+			'title': 'Title 4',
+			'description':
+				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
+			'links': {
+				'github': 'https://github.com/Appithe',
+				'figma': '',
+				'web': ''
+			}
+		}
+	]
+});
+
+export const projectsEs = map({
+	'header': 'Mis proyectos',
+	'projects': [
+		{
+			'title': 'Titulo 1',
+			'description':
+				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
+			'image': 'https://picsum.photos/id/1050/692/456',
+			'links': {
+				'github': 'https://github.com/Appithe',
+				'figma': '',
+				'web': ''
+			}
+		},
+		{
+			'title': 'Titulo 2',
+			'description':
+				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
+			'image': 'https://picsum.photos/id/1060/692/456',
+			'links': {
+				'github': 'https://github.com/Appithe',
+				'figma': '',
+				'web': ''
+			}
+		},
+		{
+			'title': 'Titulo 3',
+			'description':
+				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
+			'image': 'https://picsum.photos/id/1070/692/456',
+			'links': {
+				'github': 'https://github.com/Appithe',
+				'figma': '',
+				'web': ''
+			}
+		},
+		{
+			'title': 'Titulo 4',
+			'description':
+				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
+			'image': 'https://picsum.photos/id/1080/692/456',
+			'links': {
+				'github': 'https://github.com/Appithe',
+				'figma': '',
+				'web': ''
+			}
+		}
+	]
 });
