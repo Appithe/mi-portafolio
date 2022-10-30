@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Blob from '../../../public/assets/Blob';
+import Blob from '/public/assets/Blob';
 
 import useLanguageStore from '../../hooks/useLanguageStore';
 
