@@ -60,47 +60,43 @@ export const projectsEn = map({
 	'header': 'My projects',
 	'projects': [
 		{
-			'title': 'Titulo 1',
+			'title': 'Title 1',
 			'description':
 				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
 			'image': 'https://picsum.photos/id/1050/692/456',
 			'links': {
 				'github': 'https://github.com/Appithe',
-				'figma': '',
-				'web': ''
+				'figma': 'https://figma.com',
+				'web': 'www.google.com'
 			}
 		},
 		{
-			'title': 'Titulo 2',
+			'title': 'Title 2',
 			'description':
 				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
 			'image': 'https://picsum.photos/id/1060/692/456',
 			'links': {
 				'github': 'https://github.com/Appithe',
-				'figma': '',
-				'web': ''
+				'figma': 'https://figma.com',
 			}
 		},
 		{
-			'title': 'Titulo 3',
+			'title': 'Title 3',
 			'description':
 				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
 			'image': 'https://picsum.photos/id/1070/692/456',
 			'links': {
 				'github': 'https://github.com/Appithe',
-				'figma': '',
-				'web': ''
+				'web': 'www.google.com'
 			}
 		},
 		{
-			'title': 'Titulo 4',
+			'title': 'Title 4',
 			'description':
 				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
 			'image': 'https://picsum.photos/id/1080/692/456',
 			'links': {
-				'github': 'https://github.com/Appithe',
-				'figma': '',
-				'web': ''
+				'figma': 'https://figma.com',
 			}
 		}
 	]
@@ -116,8 +112,8 @@ export const projectsEs = map({
 			'image': 'https://picsum.photos/id/1050/692/456',
 			'links': {
 				'github': 'https://github.com/Appithe',
-				'figma': '',
-				'web': ''
+				'figma': 'https://figma.com',
+				'web': 'www.google.com'
 			}
 		},
 		{
@@ -127,8 +123,7 @@ export const projectsEs = map({
 			'image': 'https://picsum.photos/id/1060/692/456',
 			'links': {
 				'github': 'https://github.com/Appithe',
-				'figma': '',
-				'web': ''
+				'figma': 'https://figma.com',
 			}
 		},
 		{
@@ -138,8 +133,7 @@ export const projectsEs = map({
 			'image': 'https://picsum.photos/id/1070/692/456',
 			'links': {
 				'github': 'https://github.com/Appithe',
-				'figma': '',
-				'web': ''
+				'web': 'www.google.com'
 			}
 		},
 		{
@@ -148,9 +142,7 @@ export const projectsEs = map({
 				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
 			'image': 'https://picsum.photos/id/1080/692/456',
 			'links': {
-				'github': 'https://github.com/Appithe',
-				'figma': '',
-				'web': ''
+				'figma': 'https://figma.com',
 			}
 		}
 	]
