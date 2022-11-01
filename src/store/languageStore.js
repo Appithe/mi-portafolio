@@ -14,12 +14,6 @@ export const changeLang = action(language, 'change', (store) => {
 
 export const images = map({
 	'aboutImage': 'https://res.cloudinary.com/dstbwwmvv/image/upload/w_410,h_620,c_fill/v1666751040/20220710_203258_isgdxt.jpg',
-	'projectImages':[
-		'https://picsum.photos/id/1050/692/456',
-		'https://picsum.photos/id/1060/692/456',
-		'https://picsum.photos/id/1070/692/456',
-		'https://picsum.photos/id/1080/692/456'		
-	],
 });
 
 export const navLinksEn = map([
@@ -66,9 +60,10 @@ export const projectsEn = map({
 	'header': 'My projects',
 	'projects': [
 		{
-			'title': 'Title 1',
+			'title': 'Titulo 1',
 			'description':
 				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
+			'image': 'https://picsum.photos/id/1050/692/456',
 			'links': {
 				'github': 'https://github.com/Appithe',
 				'figma': '',
@@ -76,9 +71,10 @@ export const projectsEn = map({
 			}
 		},
 		{
-			'title': 'Title 2',
+			'title': 'Titulo 2',
 			'description':
 				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
+			'image': 'https://picsum.photos/id/1060/692/456',
 			'links': {
 				'github': 'https://github.com/Appithe',
 				'figma': '',
@@ -86,9 +82,10 @@ export const projectsEn = map({
 			}
 		},
 		{
-			'title': 'Title 3',
+			'title': 'Titulo 3',
 			'description':
 				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
+			'image': 'https://picsum.photos/id/1070/692/456',
 			'links': {
 				'github': 'https://github.com/Appithe',
 				'figma': '',
@@ -96,9 +93,10 @@ export const projectsEn = map({
 			}
 		},
 		{
-			'title': 'Title 4',
+			'title': 'Titulo 4',
 			'description':
 				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
+			'image': 'https://picsum.photos/id/1080/692/456',
 			'links': {
 				'github': 'https://github.com/Appithe',
 				'figma': '',
