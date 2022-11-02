@@ -1,0 +1,16 @@
+---
+import Section from "../../layouts/Section.svelte"
+import { SkillHeader } from './SkillHeader';
+import { Skills } from './Skills';
+
+---
+
+<Section 
+	sectionId="skills" 
+	bgColor="bg-charcoal" 
+	svgWaveBottom="/assets/waves/WaveSkills.svg"
+	className="py-20 grid grid-cols-12 grid-rows-4 gap-4"
+>
+	<SkillHeader client:load/>
+	<Skills client:load/>
+</Section>

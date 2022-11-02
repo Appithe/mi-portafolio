@@ -147,3 +147,113 @@ export const projectsEs = map({
 		}
 	]
 });
+
+export const skillsEn = map({
+	'header': 'Skills',
+	'skills': [
+		{
+			'title': 'Styling',
+			'icons': [
+				'/assets/icons/css3.svg',
+				'/assets/icons/tailwindcss.svg',
+				'/assets/icons/bootstrap.svg',
+				'/assets/icons/materialui.svg'
+			],
+			'message': 'I have experience with CSS, TailwindCSS, Bootstrap, and Material UI.'
+		},
+		{
+			'title': 'JavaScript',
+			'icons': [
+				'/assets/icons/javascript.svg',
+				'/assets/icons/nodejs.svg'
+			],
+			'message': 'I have experience with JavaScript and Node.js.'
+		},
+		{
+			'title': 'Frameworks',
+			'icons': [
+				'/assets/icons/svelte.svg',
+				'/assets/icons/react.svg'
+			],
+			'message': 'I have experience with Svelte and React.'
+		},
+		{
+			'title': 'Version Control',
+			'icons': [
+				'/assets/icons/git.svg',
+				'/assets/icons/github.svg'
+			],
+			'message': 'I have experience with Git and GitHub.'
+		},
+		{
+			'title': 'Tools',
+			'icons': [
+				'/assets/icons/vitejs.svg',
+				'/assets/icons/astro.svg'
+			],
+			'message': 'I have experience with Vite and Astro.'
+		},
+		{
+			'title': 'Design',
+			'icons': [
+				'/assets/icons/figma.svg'
+			],
+			'message': 'I have experience with Figma.'
+		}
+	]
+});
+
+export const skillsEs = map({
+	'header': 'Habilidades',
+	'skills': [
+		{
+			'title': 'Estilos',
+			'icons': [
+				'/assets/icons/css3.svg',
+				'/assets/icons/tailwindcss.svg',
+				'/assets/icons/bootstrap.svg',
+				'/assets/icons/materialui.svg'
+			],
+			'message': 'Tengo experiencia con CSS, TailwindCSS, Bootstrap y Material UI.'
+		},
+		{
+			'title': 'JavaScript',
+			'icons': [
+				'/assets/icons/javascript.svg',
+				'/assets/icons/nodejs.svg'
+			],
+			'message': 'Tengo experiencia con JavaScript y Node.js.'
+		},
+		{
+			'title': 'Frameworks',
+			'icons': [
+				'/assets/icons/svelte.svg',
+				'/assets/icons/react.svg'
+			],
+			'message': 'Tengo experiencia con Svelte y React.'
+		},
+		{
+			'title': 'Control de Versiones',
+			'icons': [
+				'/assets/icons/git.svg',
+				'/assets/icons/github.svg'
+			],
+			'message': 'Tengo experiencia con Git y GitHub.'
+		},
+		{
+			'title': 'Herramientas',
+			'icons': [
+				'/assets/icons/vitejs.svg',
+				'/assets/icons/astro.svg'
+			],
+			'message': 'Tengo experiencia con Vite y Astro.'
+		},
+		{
+			'title': 'Diseño',
+			'icons': [
+				'/assets/icons/figma.svg'
+			],
+			'message': 'Tengo experiencia con Figma.'
+		}
+	]
+});
