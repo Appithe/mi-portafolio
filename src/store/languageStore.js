@@ -154,49 +154,49 @@ export const skillsEn = map({
 		{
 			'title': 'Styling',
 			'icons': [
-				'/assets/icons/css3.svg',
-				'/assets/icons/tailwindcss.svg',
-				'/assets/icons/bootstrap.svg',
-				'/assets/icons/materialui.svg'
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413042/SVG_icons/css3_jaqobn.svg',
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413045/SVG_icons/tailwindcss_kllnle.svg',
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413044/SVG_icons/bootstrap_ky1eb3.svg',
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413044/SVG_icons/materialui_bz4idr.svg'
 			],
 			'message': 'I have experience with CSS, TailwindCSS, Bootstrap, and Material UI.'
 		},
 		{
 			'title': 'JavaScript',
 			'icons': [
-				'/assets/icons/javascript.svg',
-				'/assets/icons/nodejs.svg'
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413043/SVG_icons/javascript_lvt2k6.svg',
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413045/SVG_icons/nodejs_selaau.svg'
 			],
 			'message': 'I have experience with JavaScript and Node.js.'
 		},
 		{
 			'title': 'Frameworks',
 			'icons': [
-				'/assets/icons/svelte.svg',
-				'/assets/icons/react.svg'
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413045/SVG_icons/svelte_kh4khi.svg',
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413046/SVG_icons/react_ioez1e.svg'
 			],
 			'message': 'I have experience with Svelte and React.'
 		},
 		{
 			'title': 'Version Control',
 			'icons': [
-				'/assets/icons/git.svg',
-				'/assets/icons/github.svg'
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413042/SVG_icons/git_ly5sh7.svg',
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413042/SVG_icons/github_n9bpi1.svg'
 			],
 			'message': 'I have experience with Git and GitHub.'
 		},
 		{
 			'title': 'Tools',
 			'icons': [
-				'/assets/icons/vitejs.svg',
-				'/assets/icons/astro.svg'
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413045/SVG_icons/vitejs_ttow3v.svg',
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413042/SVG_icons/astro_dcas5j.svg'
 			],
 			'message': 'I have experience with Vite and Astro.'
 		},
 		{
 			'title': 'Design',
 			'icons': [
-				'/assets/icons/figma.svg'
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413042/SVG_icons/figma_eaxdvc.svg'
 			],
 			'message': 'I have experience with Figma.'
 		}
@@ -209,49 +209,49 @@ export const skillsEs = map({
 		{
 			'title': 'Estilos',
 			'icons': [
-				'/assets/icons/css3.svg',
-				'/assets/icons/tailwindcss.svg',
-				'/assets/icons/bootstrap.svg',
-				'/assets/icons/materialui.svg'
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413042/SVG_icons/css3_jaqobn.svg',
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413045/SVG_icons/tailwindcss_kllnle.svg',
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413044/SVG_icons/bootstrap_ky1eb3.svg',
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413044/SVG_icons/materialui_bz4idr.svg'
 			],
 			'message': 'Tengo experiencia con CSS, TailwindCSS, Bootstrap y Material UI.'
 		},
 		{
 			'title': 'JavaScript',
 			'icons': [
-				'/assets/icons/javascript.svg',
-				'/assets/icons/nodejs.svg'
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413043/SVG_icons/javascript_lvt2k6.svg',
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413045/SVG_icons/nodejs_selaau.svg'
 			],
 			'message': 'Tengo experiencia con JavaScript y Node.js.'
 		},
 		{
 			'title': 'Frameworks',
 			'icons': [
-				'/assets/icons/svelte.svg',
-				'/assets/icons/react.svg'
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413045/SVG_icons/svelte_kh4khi.svg',
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413046/SVG_icons/react_ioez1e.svg'
 			],
 			'message': 'Tengo experiencia con Svelte y React.'
 		},
 		{
 			'title': 'Control de Versiones',
 			'icons': [
-				'/assets/icons/git.svg',
-				'/assets/icons/github.svg'
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413042/SVG_icons/git_ly5sh7.svg',
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413042/SVG_icons/github_n9bpi1.svg'
 			],
 			'message': 'Tengo experiencia con Git y GitHub.'
 		},
 		{
 			'title': 'Herramientas',
 			'icons': [
-				'/assets/icons/vitejs.svg',
-				'/assets/icons/astro.svg'
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413045/SVG_icons/vitejs_ttow3v.svg',
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413042/SVG_icons/astro_dcas5j.svg'
 			],
 			'message': 'Tengo experiencia con Vite y Astro.'
 		},
 		{
 			'title': 'Diseño',
 			'icons': [
-				'/assets/icons/figma.svg'
+				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413042/SVG_icons/figma_eaxdvc.svg'
 			],
 			'message': 'Tengo experiencia con Figma.'
 		}
