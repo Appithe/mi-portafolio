@@ -1,46 +1,14 @@
 ---
 
-import Nav from "./Nav.svelte";
-import NavLinks from "./NavLinks.svelte"
-import { NavLink } from "./NavLink";
+import { Nav } from "./Nav";
+import { NavLinks } from "./NavLinks"
 import { NavBrand } from "./NavBrand";
-import { NavButton } from "./NavButton"
-
-const lang = "en";
-const navLinks = [
-	{
-		"href": "#about",
-		"text": "About"
-	},
-	{
-		"href": "#my-work",
-		"text": "Projects"
-	},
-	{
-		"href": "#skills",
-		"text": "Skills"
-	},
-	{
-		"href": "#footer",
-		"text": "Get in touch"
-	}
-];
-
-// FIXME: onclick is not working when is send as a prop to Button component  
-function onChangeLanguage() {
-	console.log("change language");
-};
+import { SelectLanguage } from "./SelectLanguage";
 
 ---
 
 <Nav>
 	<NavBrand title="Joel Avilés" />
-	<NavLinks>
-		{
-			navLinks.map((link) => {
-				return <NavLink href={link.href} message={link.text} />
-			})
-		}
-	</NavLinks>
-	<NavButton client:visible onClick={onChangeLanguage} message='ESP / ENG'/>
+	<NavLinks client:visible/>
+	<SelectLanguage client:visible/>
 </Nav>

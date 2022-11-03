@@ -1,41 +1,7 @@
 ---
-import Section from "../../layouts/Section.svelte"
-import ProjectCard from "./ProjectCard.svelte"
-
-const projects = {
-  "header": "My projects",
-  "projects": [
-    {
-      "title": "Titulo 1",
-      "description":
-      "Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor",
-      "image": "https://picsum.photos/id/1050/692/456",
-      "link": "https://github.com/Appithe"
-    },
-    {
-      "title": "Titulo 2",
-      "description":
-      "Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor",
-      "image": "https://picsum.photos/id/1060/692/456",
-      "link": "https://github.com/Appithe"
-    },
-    {
-      "title": "Titulo 3",
-      "description":
-      "Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor",
-      "image": "https://picsum.photos/id/1070/692/456",
-      "link": "https://github.com/Appithe"
-    },
-    {
-      "title": "Titulo 4",
-      "description":
-      "Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor",
-      "image": "https://picsum.photos/id/1080/692/456",
-      "link": "https://github.com/Appithe"
-    }
-  ]
-};
-
+import Section from "../../layouts/Section.svelte";
+import MyWorkHeader from "./MyWorkHeader.svelte";
+import Projects from "./Projects.svelte";
 ---
 
 <Section 
@@ -44,20 +10,6 @@ const projects = {
 	svgWaveBottom="/assets/waves/WaveMyWork.svg"
 	className="py-20"
 >
-  <div class="grid grid-cols-12 gap-5">
-    <h2 class="text-h2 font-Fjalla pb-10 col-start-2 col-span-2">{projects.header}</h2>
-  </div>
-  <div class="flex flex-wrap gap-5 justify-center items-center">
-    {
-      projects.projects.map(({title, description, image, link}) => {
-        return <ProjectCard 
-            title={title}
-            description={description}
-            image={image}
-            link={link}
-        /> 
-      })
-    }
-  </div>
-
+	<MyWorkHeader client:load />
+	<Projects client:load />
 </Section>
