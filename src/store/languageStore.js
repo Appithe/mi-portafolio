@@ -257,3 +257,64 @@ export const skillsEs = map({
 		}
 	]
 });
+
+export const footerEn = map({
+	'headers': ['Get in touch', 'Download my resume'],
+	'links': [
+		{
+			'icon': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413042/SVG_icons/github_n9bpi1.svg',
+			'link': 'https://github.com/Appithe',
+			'message': 'View my Github'
+		},
+		{
+			'icon': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413044/SVG_icons/linkedin_gabqqo.svg',
+			'link': 'https://www.linkedin.com/in/joel-aviles/',
+			'message': 'View my LinkedIn'
+		},
+		{
+			'icon': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413043/SVG_icons/google_ykfqwr.svg',
+			'link': 'mailto:avilesjoel413@gmail.com',
+			'message': 'Send me a mail'
+		},
+		{
+			'icon': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413046/SVG_icons/whatsapp_llpilo.svg',
+			'link': 'https://wa.me/524731114987',
+			'message': 'Lets chat'
+		}
+
+	],
+	'resumeImage': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1666751368/Jesus_Joel_Aviles_Bermudez_Resume_eez9ys.png',
+	'resumePdf': '/assets/resume/Jesus_Joel_Aviles_Bermudez_Resume.pdf',
+	'svg': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413042/SVG_icons/file_download_ler4xl.svg'
+});
+
+export const footerEs = map({
+	'headers': ['Contáctame', 'Descarga mi CV'],
+	'links': [
+		{
+			'icon': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413042/SVG_icons/github_n9bpi1.svg',
+			'link': 'https://github.com/Appithe',
+			'message': 'Visita mi Github'
+		},
+		{
+			'icon': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413044/SVG_icons/linkedin_gabqqo.svg',
+			'link': 'https://www.linkedin.com/in/joel-aviles/',
+			'message': 'Visita mi LinkedIn'
+		},
+		{
+			'icon': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413043/SVG_icons/google_ykfqwr.svg',
+			'link': 'mailto:avilesjoel413@gmail.com',
+			'message': 'Mándame un correo'
+		},
+		{
+			'icon': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413046/SVG_icons/whatsapp_llpilo.svg',
+			'link': 'https://wa.me/524731114987',
+			'message': 'Hablemos por WhatsApp'
+		}
+
+	],
+	'resumeImage': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1666751368/Jesus_Joel_Aviles_Bermudez_Resume_eez9ys.png',
+	'resumePdf': '/assets/resume/Jesus_Joel_Aviles_Bermudez_Resume.pdf',
+	'svg': '/assets/icons/file_download.svg'
+}
+);

@@ -1,49 +1,9 @@
 ---
 import GetInTouch from './GetInTouch.svelte';
 import MyResume from './MyResume.svelte';
-
-import { Contact } from './Contact';
-
-const footer = {
-	"headers": ["Get in touch", "Download my resume"],
-	"links": [
-		{
-			"icon": "/assets/icons/github.svg",
-			"link": "https://github.com/Appithe",
-			"message": "View my Github"
-		},
-		{
-			"icon": "/assets/icons/linkedin.svg",
-			"link": "https://www.linkedin.com/in/joel-aviles/",
-			"message": "View my LinkedIn"
-		},
-		{
-			"icon": "/assets/icons/google.svg",
-			"link": "mailto:avilesjoel413@gmail.com",
-			"message": "Send me a mail"
-		},
-		{
-			"icon": "/assets/icons/whatsapp.svg",
-			"link": "https://wa.me/524731114987",
-			"message": "Lets chat"
-		}
-
-	],
-	"resumeImage": "https://res.cloudinary.com/dstbwwmvv/image/upload/v1666751368/Jesus_Joel_Aviles_Bermudez_Resume_eez9ys.png",
-	"resumePdf": "/assets/resume/Jesus_Joel_Aviles_Bermudez_Resume.pdf",
-	"svg": "/assets/icons/file_download.svg"
-}
 ---
 
 <footer id="footer" class="pt-32 pb-8 grid grid-cols-12 gap-5">
-	<GetInTouch header={footer.headers[0]}>
-		{
-			footer.links.map(({link, icon, message}) => {
-				return (
-					<Contact link={link} icon={icon} message={message} />
-				)
-			})
-		}
-	</GetInTouch>
-	<MyResume header={footer.headers[1]} resumeImage={footer.resumeImage} resumePdf={footer.resumePdf} svg={footer.svg}/>
+	<GetInTouch client:load />
+	<MyResume client:load />
 </footer>
