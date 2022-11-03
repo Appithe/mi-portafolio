@@ -314,7 +314,7 @@ export const footerEs = map({
 
 	],
 	'resumeImage': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1666751368/Jesus_Joel_Aviles_Bermudez_Resume_eez9ys.png',
-	'resumePdf': '/assets/resume/Jesus_Joel_Aviles_Bermudez_Resume.pdf',
+	'resumePdf': '/assets/resume/Jesus_Joel_Aviles_Bermudez_CV.pdf',
 	'svg': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413042/SVG_icons/file_download_ler4xl.svg'
 }
 );
