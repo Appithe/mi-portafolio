@@ -3,11 +3,6 @@ import Section from "../../layouts/Section.svelte"
 import { AboutBody } from "./AboutBody"
 import { AboutImage } from "./AboutImage"
 
-const about = {
-	"header": ["Hi!", "I'm Joel Avilés"],
-	"content": ["I'm junior Frontend Developer with interests in UX / UI, Design Thinking & SCRUM.","I am constantly learning and I love working in a team."],
-	"image": "https://res.cloudinary.com/dstbwwmvv/image/upload/w_410,h_620,c_fill/v1666751040/20220710_203258_isgdxt.jpg"
-}
 ---
 
 <Section 
@@ -16,6 +11,6 @@ const about = {
 	svgWaveBottom="/assets/waves/WaveAbout.svg"
 	className="grid grid-cols-12 gap-5 place-items-center py-20"
 >
-	<AboutBody header={about.header} text={about.content}/>
-	<AboutImage image={about.image} alt={about.header[1]}/>
+	<AboutBody client:load/>
+	<AboutImage client:load/>
 </Section>

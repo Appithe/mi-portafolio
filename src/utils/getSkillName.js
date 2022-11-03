@@ -1,7 +1,8 @@
 const getSkillName = (icon) => {
 	let skillName = icon.split('/').slice(3);
+	let fileName = skillName[skillName.length - 1];
 
-	return (skillName.toString().split('.', 1).toString());
+	return fileName.split('_', 1).toString();
 };
 
 export default getSkillName;

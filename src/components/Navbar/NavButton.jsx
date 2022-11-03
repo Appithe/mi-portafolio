@@ -5,7 +5,7 @@ export const NavButton = (props) => {
 
 	const {
 		children = null,
-		handleClick = () => { console.log('Button clicked'); },
+		handleClick = () => {},
 		message = 'Button',
 	} = props;
 
