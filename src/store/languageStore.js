@@ -60,45 +60,32 @@ export const projectsEn = map({
 	'header': 'My projects',
 	'projects': [
 		{
-			'title': 'Title 1',
-			'description':
-				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
-			'image': 'https://picsum.photos/id/1050/692/456',
+			'title': 'Front End Mentor',
+			'description':'My solutions to the challenges of Front End Mentor. Using HTML, CSS, JS.',
+			'image': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667529192/frontendmentor_sfbikx.png',
 			'links': {
-				'github': 'https://github.com/Appithe',
-				'figma': 'https://figma.com',
-				'web': 'www.google.com'
+				'web': 'https://www.frontendmentor.io/profile/Appithe'
 			}
 		},
 		{
-			'title': 'Title 2',
-			'description':
-				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
-			'image': 'https://picsum.photos/id/1060/692/456',
+			'title': 'Hacktoberfest 2022',
+			'description':'My contribution to the Hacktoberfest 2022. In the repo of midudev/password-generator',
+			'image': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667096169/hacktoberfest-2022_y0ox7v.png',
 			'links': {
-				'github': 'https://github.com/Appithe',
-				'figma': 'https://figma.com',
+				'github': 'https://github.com/Appithe/hacktoberfest-2022',
+				'figma': 'https://www.figma.com/file/NJn9O9NwfUjhhPbSwUaFgi/hacktoberfets?node-id=0%3A1',
+				'web': 'https://hacktoberfest-2022.vercel.app/entry/Appithe'
 			}
 		},
 		{
-			'title': 'Title 3',
-			'description':
-				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
-			'image': 'https://picsum.photos/id/1070/692/456',
+			'title': 'Random movies',
+			'description': 'Whit this project i learned how to use tailwindcss and redux',
+			'image': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667530080/randomMovies_b02wom.png',
 			'links': {
-				'github': 'https://github.com/Appithe',
-				'web': 'www.google.com'
+				'github': 'https://github.com/Appithe/random-movies',
+				'web': 'https://random-movies-eight.vercel.app/'
 			}
 		},
-		{
-			'title': 'Title 4',
-			'description':
-				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
-			'image': 'https://picsum.photos/id/1080/692/456',
-			'links': {
-				'figma': 'https://figma.com',
-			}
-		}
 	]
 });
 
@@ -106,45 +93,32 @@ export const projectsEs = map({
 	'header': 'Mis proyectos',
 	'projects': [
 		{
-			'title': 'Titulo 1',
-			'description':
-				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
-			'image': 'https://picsum.photos/id/1050/692/456',
+			'title': 'Front End Mentor',
+			'description':'Mis soluciones a los desafíos de Front End Mentor. Usando HTML, CSS, JS.',
+			'image': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667529192/frontendmentor_sfbikx.png',
 			'links': {
-				'github': 'https://github.com/Appithe',
-				'figma': 'https://figma.com',
-				'web': 'www.google.com'
+				'web': 'https://www.frontendmentor.io/profile/Appithe'
 			}
 		},
 		{
-			'title': 'Titulo 2',
-			'description':
-				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
-			'image': 'https://picsum.photos/id/1060/692/456',
+			'title': 'Hacktoberfest 2022',
+			'description':'Mi contribución en hactoberfest 2022. En el repo de midudev/password-generator',
+			'image': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667096169/hacktoberfest-2022_y0ox7v.png',
 			'links': {
-				'github': 'https://github.com/Appithe',
-				'figma': 'https://figma.com',
+				'github': 'https://github.com/Appithe/hacktoberfest-2022',
+				'figma': 'https://www.figma.com/file/NJn9O9NwfUjhhPbSwUaFgi/hacktoberfets?node-id=0%3A1',
+				'web': 'https://hacktoberfest-2022.vercel.app/entry/Appithe'
 			}
 		},
 		{
-			'title': 'Titulo 3',
-			'description':
-				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
-			'image': 'https://picsum.photos/id/1070/692/456',
+			'title': 'Random movies',
+			'description': 'Con este proyecto aprendí a usar tailwindcss y redux',
+			'image': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667530080/randomMovies_b02wom.png',
 			'links': {
-				'github': 'https://github.com/Appithe',
-				'web': 'www.google.com'
+				'github': 'https://github.com/Appithe/random-movies',
+				'web': 'https://random-movies-eight.vercel.app/'
 			}
 		},
-		{
-			'title': 'Titulo 4',
-			'description':
-				'Dolor aliqua officia esse ipsum nulla laborum laborum sit ex Lorem veniam esse esse tempor',
-			'image': 'https://picsum.photos/id/1080/692/456',
-			'links': {
-				'figma': 'https://figma.com',
-			}
-		}
 	]
 });
 
@@ -159,7 +133,7 @@ export const skillsEn = map({
 				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413044/SVG_icons/bootstrap_ky1eb3.svg',
 				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413044/SVG_icons/materialui_bz4idr.svg'
 			],
-			'message': 'I have experience with CSS, TailwindCSS, Bootstrap, and Material UI.'
+			'message': 'I have 2 years of experience with CSS, Bootstrap, and less 1 year with Material UI, TailwindCSS.'
 		},
 		{
 			'title': 'JavaScript',
@@ -167,7 +141,7 @@ export const skillsEn = map({
 				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413043/SVG_icons/javascript_lvt2k6.svg',
 				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413045/SVG_icons/nodejs_selaau.svg'
 			],
-			'message': 'I have experience with JavaScript and Node.js.'
+			'message': 'I have 3 years of experience with JavaScript and Node.js.'
 		},
 		{
 			'title': 'Frameworks',
@@ -175,7 +149,7 @@ export const skillsEn = map({
 				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413045/SVG_icons/svelte_kh4khi.svg',
 				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413046/SVG_icons/react_ioez1e.svg'
 			],
-			'message': 'I have experience with Svelte and React.'
+			'message': 'I have 2 years of experience with React and less 1 year with Svelte.'
 		},
 		{
 			'title': 'Version Control',
@@ -183,7 +157,7 @@ export const skillsEn = map({
 				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413042/SVG_icons/git_ly5sh7.svg',
 				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413042/SVG_icons/github_n9bpi1.svg'
 			],
-			'message': 'I have experience with Git and GitHub.'
+			'message': 'I have 3 years of experience with Git and GitHub.'
 		},
 		{
 			'title': 'Tools',
@@ -214,7 +188,7 @@ export const skillsEs = map({
 				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413044/SVG_icons/bootstrap_ky1eb3.svg',
 				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413044/SVG_icons/materialui_bz4idr.svg'
 			],
-			'message': 'Tengo experiencia con CSS, TailwindCSS, Bootstrap y Material UI.'
+			'message': 'Tengo 2 años de experiencia con CSS, Bootstrap, y menos de 1 año con Material UI, TailwindCSS.'
 		},
 		{
 			'title': 'JavaScript',
@@ -222,7 +196,7 @@ export const skillsEs = map({
 				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413043/SVG_icons/javascript_lvt2k6.svg',
 				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413045/SVG_icons/nodejs_selaau.svg'
 			],
-			'message': 'Tengo experiencia con JavaScript y Node.js.'
+			'message': 'Tengo 3 años de experiencia con JavaScript y Node.js.'
 		},
 		{
 			'title': 'Frameworks',
@@ -230,7 +204,7 @@ export const skillsEs = map({
 				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413045/SVG_icons/svelte_kh4khi.svg',
 				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413046/SVG_icons/react_ioez1e.svg'
 			],
-			'message': 'Tengo experiencia con Svelte y React.'
+			'message': 'Tengo 2 años de experiencia con React y menos de 1 año con Svelte.'
 		},
 		{
 			'title': 'Control de Versiones',
@@ -238,7 +212,7 @@ export const skillsEs = map({
 				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413042/SVG_icons/git_ly5sh7.svg',
 				'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667413042/SVG_icons/github_n9bpi1.svg'
 			],
-			'message': 'Tengo experiencia con Git y GitHub.'
+			'message': 'Tengo 3 años de experiencia con Git y GitHub.'
 		},
 		{
 			'title': 'Herramientas',
