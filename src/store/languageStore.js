@@ -56,13 +56,15 @@ export const aboutEs = map({
 	'content': ['Soy Desarrollador Frontend junior con intereses en UX / UI, Design Thinking & SCRUM.', 'Estoy en constante aprendizaje y me encanta trabajar en equipo.'],
 });
 
+// w-[692px] h-[456px]
+
 export const projectsEn = map({
 	'header': 'My projects',
 	'projects': [
 		{
 			'title': 'Front End Mentor',
 			'description':'My solutions to the challenges of Front End Mentor. Using HTML, CSS, JS.',
-			'image': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667529192/frontendmentor_sfbikx.png',
+			'image': 'https://res.cloudinary.com/dstbwwmvv/image/upload/w_692,h_456,c_fill/v1667529192/frontendmentor_sfbikx.png',
 			'links': {
 				'web': 'https://www.frontendmentor.io/profile/Appithe'
 			}
@@ -70,7 +72,7 @@ export const projectsEn = map({
 		{
 			'title': 'Hacktoberfest 2022',
 			'description':'My contribution to the Hacktoberfest 2022. In the repo of midudev/password-generator',
-			'image': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667096169/hacktoberfest-2022_y0ox7v.png',
+			'image': 'https://res.cloudinary.com/dstbwwmvv/image/upload/w_692,h_456,c_fill/v1667096169/hacktoberfest-2022_y0ox7v.png',
 			'links': {
 				'github': 'https://github.com/Appithe/hacktoberfest-2022',
 				'figma': 'https://www.figma.com/file/NJn9O9NwfUjhhPbSwUaFgi/hacktoberfets?node-id=0%3A1',
@@ -80,7 +82,7 @@ export const projectsEn = map({
 		{
 			'title': 'Random movies',
 			'description': 'Whit this project i learned how to use tailwindcss and redux',
-			'image': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667530080/randomMovies_b02wom.png',
+			'image': 'https://res.cloudinary.com/dstbwwmvv/image/upload/w_692,h_456,c_fill/v1667530080/randomMovies_b02wom.png',
 			'links': {
 				'github': 'https://github.com/Appithe/random-movies',
 				'web': 'https://random-movies-eight.vercel.app/'
@@ -95,7 +97,7 @@ export const projectsEs = map({
 		{
 			'title': 'Front End Mentor',
 			'description':'Mis soluciones a los desafíos de Front End Mentor. Usando HTML, CSS, JS.',
-			'image': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667529192/frontendmentor_sfbikx.png',
+			'image': 'https://res.cloudinary.com/dstbwwmvv/image/upload/w_692,h_456,c_fill/v1667529192/frontendmentor_sfbikx.png',
 			'links': {
 				'web': 'https://www.frontendmentor.io/profile/Appithe'
 			}
@@ -103,7 +105,7 @@ export const projectsEs = map({
 		{
 			'title': 'Hacktoberfest 2022',
 			'description':'Mi contribución en hactoberfest 2022. En el repo de midudev/password-generator',
-			'image': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667096169/hacktoberfest-2022_y0ox7v.png',
+			'image': 'https://res.cloudinary.com/dstbwwmvv/image/upload/w_692,h_456,c_fill/v1667096169/hacktoberfest-2022_y0ox7v.png',
 			'links': {
 				'github': 'https://github.com/Appithe/hacktoberfest-2022',
 				'figma': 'https://www.figma.com/file/NJn9O9NwfUjhhPbSwUaFgi/hacktoberfets?node-id=0%3A1',
@@ -113,7 +115,7 @@ export const projectsEs = map({
 		{
 			'title': 'Random movies',
 			'description': 'Con este proyecto aprendí a usar tailwindcss y redux',
-			'image': 'https://res.cloudinary.com/dstbwwmvv/image/upload/v1667530080/randomMovies_b02wom.png',
+			'image': 'https://res.cloudinary.com/dstbwwmvv/image/upload/w_692,h_456,c_fill/v1667530080/randomMovies_b02wom.png',
 			'links': {
 				'github': 'https://github.com/Appithe/random-movies',
 				'web': 'https://random-movies-eight.vercel.app/'
